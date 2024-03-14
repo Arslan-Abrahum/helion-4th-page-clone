@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main1 {
+    height: max-content;
+    width: 100%;
+    background-color: white;
+    background-image: url(./helion-4th-images/decoration.png);
+    background-position: 0;
+    background-size: 30% 30%;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 24px;
+    width: 9%;
+}
+
+#logo {
+    height: 100%;
+    width: 100%;
+}
+
+.ul1 {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.li1 {
+    list-style: none;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: black;
+    cursor: pointer;
+    transition: .34s;
+}
+
+.color1 {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    transition: .34s;
+    margin-top: -14.5px;
+}
+
+.li1:hover .color1 {
+    width: 100%;
+    background-color: black;
+}
+
+.color2 {
+    height: 2.5px;
+    width: 0%;
+    background-color: black;
+    transition: .34s;
+    margin-top: -14.5px;
+}
+
+.li1:hover .color2 {
+    width: 100%;
+    background-color: black;
+
+}
+
+.navbar_div1 {
+    height: 70px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_child1 {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+#navbar_icon1 {
+    font-size: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .34s;
+
+}
+
+#navbar_icon1:hover {
+    color: orangered;
+}
+
+.drop1 {
+    height: 70vh;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    transition: all .34s;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.li1:hover .drop1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ul2 {
+    color: gray;
+
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.li2 {
+    list-style: none;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: max-content;
+    height: max-content;
+    color: gray;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .34s;
+}
+
+.li2:hover {
+    color: orangered;
+    margin-left: 2px;
+}
+
+.ul3 {
+    color: gray;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.li3 {
+    list-style: none;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: max-content;
+    height: max-content;
+    color: gray;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .34s;
+}
+
+.li3:hover {
+    color: orangered;
+    margin-left: 2px;
+}
+
+.main1_h1 {
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 49px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.main1_p1 {
+    font-family: HKGrotesk, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
+    color: black;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main1_color1 {
+    color: black;
+    transition: .34s;
+    cursor: pointer;
+}
+
+.main1_color1:hover {
+    color: orangered;
+}
+
+#navbar_icon2 {
+    font-size: 20px;
+    margin-left: auto;
+    display: none;
+}
+
+.main2, .main3, .main4, .main5 {
+    height: auto;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.main2_child2 {
+    height: max-content;
+    width: 40%;
+    padding: 30px 0;
+    margin: auto;
+}
+
+#main2_image1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.main2_p1 {
+    font-family: HKGrotesk, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    cursor: pointer;
+    width: max-content;
+    transition: .34s;
+}
+
+.main2_p1:hover {
+    color: orangered;
+
+}
+
+.main2_p2 {
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 44px;
+    cursor: pointer;
+    width: max-content;
+    transition: .34s;
+    margin-top: 30px;
+}
+
+.main2_p2:hover {
+    color: orangered;
+
+}
+
+.main2_p3 {
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 26px;
+    color: rgb(74, 79, 85);
+    margin-top: 30px;
+
+}
+
+.btn1 {
+    padding: 15px 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+    border: none;
+    margin-top: 140px;
+    background-color: transparent;
+}
+
+.main2_p4 {
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 26px;
+    color: rgb(74, 79, 85);
+    transition: .34s;
+}
+.btn1:hover .main2_p4 {
+    color: orangered;
+}
+
+#main2_icon1 {
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+    transition: .34s;
+}
+
+.btn1:hover #main2_icon1 {
+    color: orangered;
+    margin-left: 30px;
+}
+
+.ch2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.main10 {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(26, 26, 31);
+    padding: 20px;
+}
+
+.child19 {
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.child20 {
+    height: max-content;
+    width: 300px;
+}
+
+#image10 {
+    height: 25px;
+    cursor: pointer;
+}
+
+.p26 {
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+}
+
+.p27 {
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgb(174, 174, 174);
+    margin-top: 30px;
+}
+
+.p28 {
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgb(174, 174, 174);
+    width: max-content;
+    transition: .5s;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+}
+
+.p28:hover {
+    color: white;
+}
+
+.p28_pd1 {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 154px;
+    background-color: rgb(109, 114, 119);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.p28:hover .p28_pd1 {
+    width: 0px;
+    background-color: white;
+}
+
+.p29 {
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 39px;
+    color: white;
+    margin-top: 30px;
+}
+
+.p30 {
+    font-family: HKGrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(174, 174, 174);
+    margin-top: 25px;
+    transition: .5s;
+    cursor: pointer;
+    width: max-content;
+}
+
+.p30:hover {
+    color: orangered;
+    margin-left: 10px;
+
+}
+
+#icon11 {
+    font-size: 20px;
+    color: rgb(109, 114, 119);
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+#icon11:hover {
+    color: orangered;
+}
+
+.color4 {
+    color: gray;
+}
+
+.p31 {
+    margin-left: 5%;
+    color: white;
+    padding-bottom: 20px;
+}
+
+/* //////////////////////// media quries /////////////////////////////// */
+
+@media screen and (max-width:1024px) {
+    .ul1 {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .li1 {
+        font-size: 17px;
+        margin-left: 5%;
+    }
+
+}
+
+@media screen and (max-width:890px) {
+    .li4 {
+        display: none;
+        opacity: 0;
+    }
+
+    #navbar_icon2 {
+        display: block;
+    }
+
+    .li1 {
+        margin-left: 11%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ul1 {
+        display: none;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .navbar_div1 {
+        width: 110px;
+    }
+
+    .main2_child2 {
+        width: 400px;
+
+    }
+
+}
